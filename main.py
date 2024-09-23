@@ -4,18 +4,16 @@ import pandas as pd
 
 st.set_page_config(page_title='IPL WIN PREDICTOR')
 
-hide_badge_css = """
+
+st.markdown("""
+
 <style>
+
 .viewerBadge_container__r5tak .styles_viewerBadge__CvC9N
  {
     display: none !important;
 }
-</style>
-"""
-st.markdown(hide_badge_css, unsafe_allow_html=True)
 
-st.markdown("""
-<style>
 .block-container
 {
     padding: 1rem;
