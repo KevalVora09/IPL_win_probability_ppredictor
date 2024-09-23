@@ -2,12 +2,6 @@ import streamlit as st
 import pickle
 import pandas as pd
 
-hide_streamlit_style = """
-            <style>
-            footer {visibility: hidden;}
-            </style>
-            """
-st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 st.set_page_config(page_title='IPL WIN PREDICTOR')
 st.markdown("""
 <style>
