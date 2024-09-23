@@ -4,15 +4,24 @@ import pandas as pd
 
 st.set_page_config(page_title='IPL WIN PREDICTOR')
 
+hide_streamlit_style = """
+    <style>
+    .viewerBadge_container__r5tak {
+        visibility: hidden;
+    }
+    .styles_viewerBadge__CvC9N {
+        visibility: hidden;
+    }
+    </style>
+    """
+
+# Inject the CSS
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
 
 st.markdown("""
 
 <style>
-
-.viewerBadge_container__r5tak .styles_viewerBadge__CvC9N
- {
-    display: none !important;
-}
 
 .block-container
 {
