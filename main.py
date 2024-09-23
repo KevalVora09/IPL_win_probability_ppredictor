@@ -7,10 +7,10 @@ st.set_page_config(page_title='IPL WIN PREDICTOR')
 hide_streamlit_style = """
     <style>
     .viewerBadge_container__r5tak {
-        visibility: hidden;
+        display : none;
     }
     .styles_viewerBadge__CvC9N {
-        visibility: hidden;
+        display : none;
     }
     </style>
     """
