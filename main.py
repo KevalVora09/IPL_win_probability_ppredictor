@@ -4,14 +4,14 @@ import pandas as pd
 
 st.set_page_config(page_title='IPL WIN PREDICTOR')
 
-hide_st_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            header {visibility: hidden;}
-            </style>
-            """
-st.markdown(hide_st_style, unsafe_allow_html=True)
+hide_badge_css = """
+<style>
+.viewerBadge_link__qRIco {
+    display: none !important;
+}
+</style>
+"""
+st.markdown(hide_badge_css, unsafe_allow_html=True)
 
 st.markdown("""
 <style>
