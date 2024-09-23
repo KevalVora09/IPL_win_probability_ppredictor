@@ -2,11 +2,16 @@ import streamlit as st
 import pickle
 import pandas as pd
 
+st.markdown("""
+    <style>
+        #MainMenu {visibility: hidden;}
+        footer {visibility: hidden;}
+        header {visibility: hidden;}
+    </style>
+    """, unsafe_allow_html=True)
 st.set_page_config(page_title='IPL WIN PREDICTOR')
 st.markdown("""
 <style>
-#MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
 .block-container
 {
     padding: 1rem;
