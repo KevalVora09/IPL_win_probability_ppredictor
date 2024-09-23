@@ -6,7 +6,9 @@ st.set_page_config(page_title='IPL WIN PREDICTOR')
 
 hide_badge_css = """
 <style>
-.viewerBadge_container__r5tak styles_viewerBadge__CvC9N {
+.viewerBadge_text__fzr3E viewerBadge_te
+xtExi__9s6DV viewerBadge_textExitActive__KVw5r
+ {
     display: none !important;
 }
 </style>
