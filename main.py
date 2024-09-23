@@ -21,7 +21,7 @@ cities = ['Bangalore', 'Chandigarh', 'Delhi', 'Mumbai', 'Kolkata', 'Jaipur',
           'Bengaluru', 'Indore', 'Dubai', 'Sharjah', 'Navi Mumbai',
           'Lucknow', 'Guwahati']
 
-pipe = pickle.load(open('pipe1.pkl', 'rb'))
+pipe = pickle.load(open('pipe.pkl', 'rb'))
 st.title('IPL Win Probability Predictor')
 st.markdown('Made by - Keval Vora, Nachiket Pathar :red[**(FAB 2!)**]')
 col1, col2 = st.columns(2)
