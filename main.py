@@ -6,15 +6,12 @@ st.set_page_config(page_title='IPL WIN PREDICTOR')
 
 
 st.markdown("""
-
 <style>
-
-.block-container
-{
-    padding: 1rem;
-}
+.block-container{padding: 1rem;}
 </style>
 """, unsafe_allow_html=True)
+
+
 teams = ['Sunrisers Hyderabad', 'Mumbai Indians', 'Royal Challengers Bangalore', 'Kolkata Knight Riders',
          'Punjab Kings', 'Chennai Super Kings', 'Rajasthan Royals', 'Delhi Capitals', 'Lucknow Super Giants',
          'Gujarat Titans']
