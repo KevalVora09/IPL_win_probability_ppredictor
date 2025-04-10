@@ -20,7 +20,7 @@ cities = ['Bangalore', 'Chandigarh', 'Delhi', 'Mumbai', 'Kolkata', 'Jaipur',
           'Centurion', 'East London', 'Johannesburg', 'Kimberley',
           'Bloemfontein', 'Ahmedabad', 'Cuttack', 'Nagpur', 'Dharamsala',
           'Visakhapatnam', 'Pune', 'Raipur', 'Ranchi', 'Abu Dhabi',
-          'Bengaluru', 'Indore', 'Dubai', 'Sharjah', 'Navi Mumbai',
+          'Indore', 'Dubai', 'Sharjah', 'Navi Mumbai',
           'Lucknow', 'Guwahati']
 
 pipe = pickle.load(open('pipe.pkl', 'rb'))
