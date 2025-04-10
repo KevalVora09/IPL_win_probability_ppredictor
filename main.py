@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 
 st.set_page_config(page_title='IPL WIN PREDICTOR')
-
+st.markdown(':red[**(Made by - Keval Vora)**]')
 
 st.markdown("""
 <style>
