@@ -3,7 +3,6 @@ import pickle
 import pandas as pd
 
 st.set_page_config(page_title='IPL WIN PREDICTOR')
-st.markdown(':red[**(Made by - Keval Vora)**]')
 
 st.markdown("""
 <style>
@@ -26,6 +25,7 @@ cities = ['Bangalore', 'Chandigarh', 'Delhi', 'Mumbai', 'Kolkata', 'Jaipur',
 
 pipe = pickle.load(open('pipe.pkl', 'rb'))
 st.title('IPL Win Probability Predictor')
+st.markdown(':red[**(Made by - Keval Vora)**]')
 
 col1, col2 = st.columns(2)
 
