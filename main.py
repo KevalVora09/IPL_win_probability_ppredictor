@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import pandas as pd
 
-st.set_page_config(page_title='IPL WIN PREDICTOR')
+st.set_page_config(page_title='IPL WIN PREDICTORRR')
 st.markdown(':red[**(Made by - Keval Vora)**]')
 
 st.markdown("""
